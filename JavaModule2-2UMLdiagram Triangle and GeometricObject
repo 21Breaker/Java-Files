@@ -1,0 +1,35 @@
++---------------------+
+| GeometricObject     |
++---------------------+
+| - color: String     |
+| - filled: boolean   |
++---------------------+
+| + GeometricObject() |
+| + GeometricObject(String, boolean) |
+| + getColor(): String |
+| + setColor(String): void |
+| + isFilled(): boolean |
+| + setFilled(boolean): void |
+| + getArea(): double |
+| + getPerimeter(): double |
++---------------------+
+
++---------------------+
+| Triangle            |
++---------------------+
+| - side1: double     |
+| - side2: double     |
+| - side3: double     |
++---------------------+
+| + Triangle()        |
+| + Triangle(double, double, double) |
+| + getSide1(): double |
+| + setSide1(double): void |
+| + getSide2(): double |
+| + setSide2(double): void |
+| + getSide3(): double |
+| + setSide3(double): void |
+| + getArea(): double |
+| + getPerimeter(): double |
+| + toString(): String |
++---------------------+
