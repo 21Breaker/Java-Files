@@ -1,0 +1,58 @@
++-------------------+
+| GeometricObject   |
++-------------------+
+| - color: String   |
+| - filled: boolean |
+| - dateCreated:    |
+|   java.util.Date  |
++-------------------+
+| + getColor():     |
+|   String          |
+| + setColor(color: |
+|   String): void   |
+| + isFilled():     |
+|   boolean         |
+| + setFilled(      |
+|   filled: boolean)|
+|   : void          |
+| + getDateCreated():|
+|   java.util.Date  |
+| + toString():     |
+|   String          |
+| + getArea():      |
+|   double          |
+| + getPerimeter(): |
+|   double          |
++-------------------+
+          ^
+          |
+          |
++-------------------+
+| Circle            |
++-------------------+
+| - radius: double  |
++-------------------+
+| + getRadius():    |
+|   double          |
+| + setRadius(      |
+|   radius: double) |
+|   : void          |
+| + getArea():      |
+|   double          |
+| + getPerimeter(): |
+|   double          |
+| + compareTo(      |
+|   o: Circle): int |
+| + equals(obj:     |
+|   Object): boolean|
+| + hashCode(): int |
++-------------------+
+          ^
+          |
+          |
++-------------------+
+| Comparable<T>     |
++-------------------+
+| + compareTo(T o): |
+|   int             |
++-------------------+
